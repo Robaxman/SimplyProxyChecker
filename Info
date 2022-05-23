@@ -1,6 +1,11 @@
 # ProxyCheckerWPF
-A very basic C# proxy checker that will filter the working proxies from the dead proxies , if the proxy is valid it will also attempt to return the "ISP" and "region" of the proxy. As you will see below the design is very basic and its just the default XAML controls available for use within WPF , the reason for this was to learn more about Xaml and learn some of the differences.  
-
+A very basic C# proxy checker that will filter the 
+working proxies from the dead proxies , 
+if the proxy is valid it will also attempt 
+to return the "ISP" and "region" of the proxy. 
+As you will see below the design is very basic 
+and its just the default XAML controls available for use within WPF , 
+the reason for this was to learn more about Xaml and learn some of the differences.  
 
 # Proxy checker info
 ```
@@ -11,24 +16,16 @@ A very basic C# proxy checker that will filter the working proxies from the dead
 * See proxies in a listbox + server information
 * Ignores protocol errors to ensure proxies are tested !
 * Copy To clipboard singol proxy selected
-* 
-```
-
 
 ```
-
 # Options
 ```
 * Threads (1-500) (reocmmended is 250 threads)
 * Timeout (1,000 - 10,000  MS = 1 - 10 seconds)
 ```
-
-
 # Dependencies
 [Leaf Xnet](https://github.com/csharp-leaf/Leaf.xNet) \
 [Newtonsoft](https://www.newtonsoft.com/)
 
-```
-Admin@hvh.site
 ```
 https://t.me/AreA51Crew2021
